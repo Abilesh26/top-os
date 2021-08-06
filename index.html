@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+   Operating Systems
+  </title>
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@500&display=swap" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+</head>
+<body>
+  <h1 id="top">TOP OS
+  </h1>
+  <h6>These are the best operating softwares in mobile devices</h6>
+  <p class="para"> Links for contents in this page:</p>
+  <nav>
+    <ul>
+      <li> <a href=#miui> MIUI </a>
+      </li>
+      <li> <a href=#oxygenos> Oxygen OS </a> </li>
+      <li> <a href=#oneui> One UI </a> </li>
+      <li> <a href="movies.html"> Movie Review</a></li>
+    </ul>
+  </nav>
+  
+  <div id="miuimain">
+     
+    
+    <h2 id="miui"> MIUI </h2>
+    <div class="img">
+      <img src="images/miui.jpeg" width="330" class="center">
+    </div>
+    <p class="content"> MIUI 13 features, release date, download, and eligible devices list have
+      started doing the rounds of the internet, even though the MIUI 12.5 is
+      still being pushed to Xiaomi smartphones. The upcoming custom Android skin,
+      which will take over from last year's MIUI 12.5, is currently in development.
+      The Xiaomi MIUI 13 update launch is expected in the second quarter, just
+      like every version in the past few years, and is expected to arrive on
+      phones from 2019 or newer. Speaking of the MIUI 13 features, it's supposed
+      to bring optimised animations, new themes, wallpapers, and plenty of security
+      improvements, among other things. Here's a quick look at MIUI 13 update,
+      features, device list, and everything we know so far!</p>
+      </div>
+  </br>
+  <div id="oxygenosmain">
+    <h2 id="oxygenos"> Oxygen OS</h2>
+    <img src="images/oxygenos.jpeg" width="330" class="center">
+    <p class="content"> OnePlus’s Theme Store which will be available in the next OxygenOS update
+      is taking some ideas from Samsung Themes, Samsung’s comprehensive customisation
+      store for your OneUI. It will especially be useful for those who like to
+      adapt the interface of their mobiles to the maximum. Additionally, there
+      are likely to be both free and paid themes, which will appeal to creators
+      and designers. OnePlus smartphones should be getting the Android 12 based
+      OxygenOS update in the coming months. There aren’t many confirmed specifics
+      about OxygenOS 12 or the theme store right now. However, we’ll find out
+      more about them on May 18 at the OnePlus Open Ears Forum.</p>
+  </div>
+  <br />
+  <div id="oneuimain">
+    <h2 id="oneui"> One UI </h2>
+    <img src="images/oneui.jpeg" width="330" class="center">
+    <p class="content">The One UI 3.1 integrates some of Google's important apps into Samsung's
+      ecosystem, such as Google Discover and Google Duo. Also, some Galaxy devices
+      are getting new video calls effects to add in the background, as well as
+      new camera features like Director's view and Single Take 2.0. Samsung's
+      tablets will receive a host of productivity features on top of the ones
+      that the smartphones are getting, such as Second Screen and wireless keyboard
+      sharing. Keep in mind that Samsung won't bring all the One UI 3.1 features
+      to some Galaxy devices, but many of them will make it to the majority of
+      the company's smartphones and tablets.</p>
+  </div>
+  <div class="container register">
+    <div class="row">
+        <div class="col-md-12">
+                <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <h3 class="register-heading">Contact us </h3>
+                    <div class="row register-form">
+                        <div class="col-md-12">
+                            <form method="post" autocomplete="off" name="google-sheet">
+                                <div class="form-group">
+                                    <input type="text" name="Name" class="form-control" placeholder="Your Name *" value="" required=""/>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="Email" class="form-control" placeholder="Your Email *" value="" required=""/>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" name="Phone" class="form-control" placeholder="Your Contact Number *" value="" required=""/>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" name="submit" class="btnSubmit btn-block" value="Login" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwZ_mgbsK9v8Vn6zXq-I1uAANtgr9gvaAJYcTyJYBcbdm1sR7-DhxGNAWlM_0x6uRS1Rg/exec'
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+</body>
+
+</html>

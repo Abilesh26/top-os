@@ -1,0 +1,65 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-image: linear-gradient(to
+right, #f64f59, #c471ed, #12c2e9);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main{
+  padding: 20px;
+  color: black;
+  background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.0px );
+-webkit-backdrop-filter: blur( 6.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.0px );
+-webkit-backdrop-filter: blur( 6.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-image: linear-gradient(to
+left, #FF7DE8, #c471ed, #12c2e9);
+ margin-left: 10px;
+ margin-right: 10px;
+ padding-top: 0px;
+ padding-bottom: 10px;
+ background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.0px );
+-webkit-backdrop-filter: blur( 6.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+ul{
+  padding: 8px;
+  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: ;
+}
+
+li{
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+  padding: 5px;
+}
+p:first-letter{
+  font-size: 150%;
+}
+
+.bottom::first-letter{
+  font-size: 120%;
+}
